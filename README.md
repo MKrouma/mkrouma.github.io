@@ -5,7 +5,7 @@ Until I'm not very good to HTML, CSS and can't develop now a website from scratc
 ## Site
 [MKrouma](https://github.com/MKrouma/mkrouma.github.io)
 
-## Bug, recommandations ? 
+## Bug, recommendations ? 
 ```
 mamadoukroumageoscience@gmail.com
 ```
