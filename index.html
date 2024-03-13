@@ -115,7 +115,7 @@
             <div class="col-md-12">
               <div class="big-title text-center">
                 <h1>Mamadou KROUMA</h1>
-                <p class="lead">Remote Sensing Scientist</p>
+                <p class="lead">Geospatial Specialist | Data Scientist | Learner.</p>
               </div>
             </div>
           </div>
@@ -144,13 +144,16 @@
                 <li>
                   <a href="#line2">Projects</a>
                   <ul class="nav">
+                    <li><a href="#line2_1">Yakro3D</a></li>
                     <li><a href="#line2_2">Paris 2wheels</a></li>
-                    <li><a href="#line2_1">Food recommendation</a></li>
-                    <li><a href="#line2_2">Webscrapping</a></li>
+                    <li><a href="#line2_3">Food recommendation</a></li>
+                    <li><a href="#line2_4">Webscrapping</a></li>
                   </ul>
                 </li>
                 <li><a href="#line3">Education</a></li>
-                <li><a href="#line4">Resume</a></li>
+                <li><a href="#line4">Teaching</a></li>
+                <li><a href="#line5">Certificate</a></li>
+                <li><a href="#line6">Resume</a></li>
               </ul>
             </nav>
           </div>
@@ -161,11 +164,13 @@
                   <div class="row">
                     <div class="col-md-12 full">
                       <p>
-                        Remote sensing scientist with +1 year experience in Geomatics. 
-                        <br />
-                        I'm currently working at Satelligence (startup) and help on DevOps, 
-                        <br />
-                        Data Analytics and Technical Support for clients in Ivory Coast.
+                        Geospatial Specialist, I have more than +3 year of experience working for startups and doing projects around the globe. 
+                        <br/>
+                        <br/>
+                        I'm currently working at Satelligence (startup) where I do technical support for clients in West Africa, data analytics and learningmore about agricultural industry.
+                        <br/>
+                        <br/>
+                        I'll be happy to follow you and your team in your development around geospatial, startup, marketing, technical writing.
                       </p>
                     </div>
                   </div>
@@ -244,9 +249,38 @@
                 <!-- end col -->
               </div>
               <!-- end row -->
+
               <div class="row">
                 <div class="col-md-10">
-                  <h4 id="line2_1">Paris 2wheels</h4>
+                  <h4 id="line2_1">Yakro3D</h4>
+                  <p>
+                    Digital twin, a buzzword. 
+                    <br>It's a real mapping of the city. Which in addition to a 3D model, will update itself according to events such as energy loss, water supply problems and so on. 
+                  </p>
+                  <p>
+                    To achieve this, there is a first layer. The 3D representation of the city of Yamoussoukro.
+                    Yamoussoukro is a town you'll want to visit, with its air of history, grand streets and Notre Dame de la Paix basilica. It's a haven of rest and peace. 
+                  </p>
+                  <p>
+                    Imagine a 3D representation of your city, without lifting a finger or a foot. Without a large and expensive data acquisition campaign. Of course you will lose a little bit of accuracy but still ? 
+                    Here is the object of my project for the weekend (2 days) of 18 and 19 June 2022. I represented in 3D the city of Yamoussoukro. 
+                  </p>
+                  <p>
+                    Dataset : Google Building footprint [2021] and Gbobal Human Settlements Layers [2018]. 
+                  </p>
+                  <p>
+                    Technical Skills: Pandas, Geopandas (Python), QGIS, Kepler.gl, AWS S3.
+                  </p>
+                  <img src="./images/yakro3d.jpeg" alt="Yakro-3D" width="600" height="270"/>
+                </div>
+                <!-- end col -->
+              </div>
+              <hr />
+              <!-- end row -->
+
+              <div class="row">
+                <div class="col-md-10">
+                  <h4 id="line2_2">Paris 2wheels</h4>
                   <p>
                     Predict dangerous hotspot for 2 wheels users in Paris.
                   </p>
@@ -265,13 +299,13 @@
                 </div>
                 <!-- end col -->
               </div>
+              <hr />
               <!-- end row -->
 
-              <hr />
-
+              
               <div class="row">
                 <div class="col-md-10">
-                  <h4 id="line2_2">Food recommendation</h4>
+                  <h4 id="line2_3">Food recommendation</h4>
                   <p>
                     Food recommendation system using machine learning and open source dataset.
                   </p>
@@ -291,17 +325,26 @@
                 </div>
                 <!-- end col -->
               </div>
+              <hr />
               <!-- end row -->
 
               <div class="row">
                 <div class="col-md-10">
-                  <h4 id="line2_3">Webscrapping</h4>
+                  <h4 id="line2_4">Webscrapping</h4>
                   <p>
-                    Daily scraping of a website for a client.
+                    I've been working on a webscrapping project for 3 months now. Of course it's private. I'll share here only the workflow and the skills learned. 
+                    It was simply a matter of retrieving data from a site in a continuous way. 
                   </p>
-                  <!-- <p>
-                    (to fill)
-                  </p> -->
+                  <p>
+                    So I developed a python application. First of all it was pure scrapping development using mainly beautifulSoup.
+                  </p>
+                  <p>
+                    Then, it was necessary to go from a local solution to a general solution in production. On one hand, I containerized the application 
+                    since the client was working on Windows and I was working on Mac (Unix). On the other hand, I opted for a cloud solution as the application was not running for the client and the Docker volumes were not well set up (still a beginner).
+                  </p>
+                  <p>
+                    Finally, I deployed the solution on the AWS cloud with the Elastic Bean Stalk service. The scrapping is in production and uploads every morning the data in the associated S3 bucket. I also had fun doing due sysadmin by connecting to my server (SSH) manipulating, transferring data (FileZilla) and others stuff. 
+                  </p>
                   <p>
                     Technical Skills: Python app, Linux, Docker, GitHub Actions, Pylint-Pytest
                   </p>
@@ -343,23 +386,7 @@
                 </div>
                 <!-- end col -->
               </div>
-              <!-- end row -->
-
-              <div class="row">
-                <div class="col-md-12">
-                  <h4>GoMyCode</h4>
-                  <h5>Intro. to Web Development | Fev 2022</h5>
-                  <!-- <h6>May 2021 - Exp. Jan. 2022</h6> -->
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-12">
-                  <h4>Jedha Bootcamp</h4>
-                  <h5>Bachelor's Degree, Full Stack Data Science | May 2021 - Exp. Jan. 2022</h5>
-                  <!-- <h6>May 2021 - Exp. Jan. 2022</h6> -->
-                </div>
-              </div>
+              <!-- end row -->              
 
               <div class="row">
                 <div class="col-md-12">
@@ -384,9 +411,90 @@
               <div class="row">
                 <div class="col-md-12 left-align">
                   <h2 class="dark-text">
+                    Teaching
+                    <hr />
+                  </h2>
+                </div>
+                <!-- end col -->
+              </div>
+              <!-- end row -->              
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4>Web programmaing</h4>
+                  <h5>Licence 1 EGT | Dec. 2023 - Exp. Feb. 2024</h5>
+                  <!-- <h5>Sep. 2020 - Exp. Nov. 2021</h5> -->
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4>Analysis with python</h4>
+                  <h5>Licence 2 EGT | June 2023 - Exp. Sep. 2023</h5>
+                  <!-- <h5>Sep. 2014 - Exp. Jul. 2019</h5> -->
+                </div>
+              </div>
+              <!-- end row -->
+            </section>
+            <!-- end section -->
+
+            <section id="line5" class="section">
+              <div class="row">
+                <div class="col-md-12 left-align">
+                  <h2 class="dark-text">
+                    Certificate
+                    <hr />
+                  </h2>
+                </div>
+                <!-- end col -->
+              </div>
+              <!-- end row -->
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4>Financial Analyst</h4>
+                  <h5>EntryLevel | Jul. 2023</h5>
+                  <!-- <h6>May 2021 - Exp. Jan. 2022</h6> -->
+                </div>
+              </div>
+              <!-- end row -->
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4>Product Management</h4>
+                  <h5>EntryLevel | April 2023</h5>
+                  <!-- <h6>May 2021 - Exp. Jan. 2022</h6> -->
+                </div>
+              </div>
+              <!-- end row -->
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4>Intro. to Web Development</h4>
+                  <h5>GoMyCode | Feb. 2022</h5>
+                  <!-- <h6>May 2021 - Exp. Jan. 2022</h6> -->
+                </div>
+              </div>
+              <!-- end row -->
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4>Full Stack Data Science</h4>
+                  <h5>Bachelor's Degree | Jedha Bootcamp | Jan. 2022</h5>
+                  <!-- <h6>May 2021 - Exp. Jan. 2022</h6> -->
+                </div>
+              </div>
+              <!-- end row -->
+            </section>
+            <!-- end section -->
+
+            <section id="line6" class="section">
+              <div class="row">
+                <div class="col-md-12 left-align">
+                  <h2 class="dark-text">
                     Resume
                     <hr />
-                    <a href="Resume-MK.pdf" target="_blank">Updated 12/1/2020</a>
+                    <a href="Resume-MK.pdf" target="_blank">Updated 13/3/2024</a>
                   </h2>
                 </div>
                 <!-- end col -->
