@@ -1,11 +1,11 @@
 # Website
 This repo is for my personal website.
-Until I'm not very good to HTML, CSS and can't develop now a website from scratch, I just use the code of [Vicorhe](https://github.com/Vicorhe/vicorhe.github.io).
+I just use the code from [Vicorhe](https://github.com/Vicorhe/vicorhe.github.io).
 
 ## Site
 [Website](mkrouma.github.io)
 
-## Bug, recommendations ? 
+## Collaboration ? 
 ```
-mamadoukroumageoscience@gmail.com
+mamadou.k@geodaftar.com
 ```
